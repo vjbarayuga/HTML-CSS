@@ -1,0 +1,42 @@
+
+p{
+    color: purple;
+    font-style: italic;
+}
+
+h2,h3,h4,h5,h6{
+    color: rgb(0, 26, 255); font-style: italic; font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    text-decoration: underline;
+    background-color: burlywood;
+}
+
+#staffTable{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#staffTable td{
+    border: 1px solid #ddd;
+    border-style:solid;
+    padding: 8px;
+}
+
+#staffTable th{
+    background-color: rgb(255, 61, 61);
+    color: #ffffff;
+}
+
+.information{
+    color: blue;
+    font-style: italic;
+}
+
+.dp{
+    width: 300px;
+    height: 200px;
+}

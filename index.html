@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first webpage</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Us</a> |
+        <a href="contact.html">Contact Us</a> |
+        <h1 id="title"> This is the Index Page</h1>
+
+        <h1>Hello World</h1>
+        <h2>Hello World</h2>
+        <h3>Hello World</h3>
+        <h4>Hello World</h4>
+        <h5>Hello World</h5>
+        <h6>Hello World</h6>
+        <p>
+            This is my first web page.
+            <br/>
+            This is now in the new line.
+        </p>
+
+        <p class="information">
+            This is p tag 1
+        </p>
+        <p>
+            This is p tag 2
+        </p>
+        <p class="information">
+            This is p tag 3
+        </p>
+        <p id="targetTag">
+            This is p tag 4
+        </p>
+        <p class="information">
+            This is p tag 5
+        </p>
+        <p>
+            This is p tag 6
+        </p>
+
+        <a id="link1" href="https://www.amazon.com" target="_blank">Amazon</a>
+                
+        <img src="" alt="">
+    </body>
+
+
+    <button type="button" onclick="buttonClicked()">Click Me!</button>
+    <button type="button" onclick="buttonToChangeTextClicked()">Click Me to Change Target Text</button>
+    
+    <script>
+        function buttonClicked(){
+            alert('Button has been clicked');
+        }
+
+        function buttonToChangeTextClicked(){
+            document.getElementById('targetTag').innerHTML = "Eh Di WOW, Changed to Javascript Text";
+        }
+        
+    </script>
+
+</html>
